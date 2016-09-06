@@ -2,25 +2,58 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "virtualMachines_Centos_adminPassword": {
+        "location": {
             "value": null
         },
-        "virtualMachines_Centos_name": {
+        "virtualMachineName": {
             "value": null
         },
-        "networkInterfaces_centos803_name": {
+        "virtualMachineSize": {
             "value": null
         },
-        "networkSecurityGroups_Centos_nsg_name": {
+        "adminUsername": {
             "value": null
         },
-        "publicIPAddresses_Centos_ip_name": {
+        "storageAccountName": {
             "value": null
         },
-        "virtualNetworks_centos_vnet_name": {
+        "virtualNetworkName": {
             "value": null
         },
-        "storageAccounts_centos568_name": {
+        "networkInterfaceName": {
+            "value": null
+        },
+        "networkSecurityGroupName": {
+            "value": null
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountType": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": null
+        },
+        "diagnosticsStorageAccountId": {
+            "value": null
+        },
+        "diagnosticsStorageAccountType": {
+            "value": null
+        },
+        "addressPrefix": {
+            "value": null
+        },
+        "subnetName": {
+            "value": null
+        },
+        "subnetPrefix": {
+            "value": null
+        },
+        "publicIpAddressName": {
+            "value": null
+        },
+        "publicIpAddressType": {
             "value": null
         }
     }
