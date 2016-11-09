@@ -1,5 +1,5 @@
 ---------
-!exercise: 
+!exercise
 name ="First Exercise" 
 scenario = "In this exercise, you will do things" 
 completionMessage = "All Done!"
