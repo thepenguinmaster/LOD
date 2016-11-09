@@ -4,7 +4,7 @@
 name ="First Exercise" 
 scenario = "In this exercise, you will do things" 
 completionMessage = "All Done!"
-```
+
 
 `````````````````````````````````````
 !task: 
@@ -64,7 +64,7 @@ idea="Learn more markdown"
 ...}
 ...~~~
 `````````````````````
-
+```
 
 ::::::::::::::::::::::::::::::::::::::::::::
 
