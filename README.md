@@ -1,96 +1,104 @@
+# Table of Contents
+1. [Introduction to PowerShellGet](#exercise-introduction-to-powershellget)
+  1. [Install a module](#task-install-a-module)
+  1. [Install a module - solution](#task-install-a-module---solution)
 
+# EXERCISE Introduction to PowerShellGet
+
+PowerShellGet is an extension of the Package Management feature in Windows PowerShell that facilitates the distribution and management of PowerShell modules. In this exercise, you will learn how to install and update modules that are available to PowerShellGet via the PowerShell Gallery.
+
+## INTRODUCTION CONTENT URL
+
+http://learnondemandsystems.com/
+
+## COMPLETION MESSAGE
+
+Thank you for taking this lab. We hope you learned a lot!
+
+## COMPLETION CONTENT URL
+
+http://learnondemandsystems.com/
+
+### TASK Install a module
+
+Using PowerShellGet, find and install the **ProtectedData** module for all users.
+
+#### :warning: ALERT
+
+#### :bulb: KNOWLEDGE
+
+Hint #1: Installing modules for all users with PowerShellGet requires elevation.
+
+Hint #2: The verbs for the commands you need can be found in the instructions for this task.
+
+If you get stuck, review the video again, paying close attention to the list of commands that are shown near the end -- the command that you need to use can be found in that list.
+
+If you're really stuck and just can't figure it out, click Done and the video in the next task will show you how this task can be completed.
+
+#### :camera: SCREENSHOT
+
+![New user table](https://github.com/LearnOnDemandSystems/skunkworks-02-lab/blob/master/screenshots/NewUserTable.png)
 ```
-!exercise
-name ="First Exercise" 
-scenario = "In this exercise, you will do things" 
-completionMessage = "All Done!"
-
-
-`````````````````````````````````````
-!task: 
-name="Markdown Introduction" 
-alert="Markdown is great!"
-idea="Use Markdown in all the things"
-screenShotUrl= "www.google.com"
-... Text for the task can go here. You can type what you need and it will show as the normal task text. 
-... You can also use standard markdown syntax here such as:
-... - number lists
-... 	1. One
-... 	2. Two
-... 	3. Three
-... - Bullet points
-... 	* Start a line with a star
-... 	* Profit!
-... - Unoredered lists
-... 	* Item 1
-... 	* Item 2
-... 	  * Item 2a
-... 	  * Item 2b
-... *This text will be italic*
-... **This text will be bold**
-... __This will also be bold__
-... 
-... _You **can** combine them_
-`````````````````````````````````````
-`````````````````````
-!task: 
-name="Markdown Introduction 2" 
-alert="Markdown is easy!"
-idea="Learn more markdown"
-
-...In this task, you will notice that it is another task!
-...
-...#We have code blocks
-...
-...##Pythjon code? Sure!
-...~~~python
-...import time
-...# Quick, count to ten!
-...for i in range(10):
-...    # (but not *too* quick)
-...    time.sleep(0.5)
-...    print i
-...~~~
-...
-...##Powershell? Yeah we have that too!
-...
-...~~~powershell
-...# This is an example code block
-...$Path = "C:\Program Files\"
-...Get-ChildItem  $Path -recurse -force | ForEach {
-...    If ($_.extension -eq ".txt") {
-...        Write-Host $_.fullname 
-...    }
-...}
-...~~~
-`````````````````````
+ShowAutomatically = No|Once|EveryTime
 ```
 
-::::::::::::::::::::::::::::::::::::::::::::
+#### :movie_camera: VIDEO
 
-::::::::::::::::::::::::::::::::::::::::::::
-!exercise: 
-name="Preparing to update Skype for Business Servers" 
-scenario= "In this exercise, you will do more things" 
-completionMessage= "All Done!"
+```
+Uri = https://github.com/LearnOnDemandSystems/skunkworks-02-lab/blob/master/videos/01-intro.mp4
+ShowAutomatically = No|Once|EveryTime
+ShowInDialog = false
+```
 
-`````````````````````
-!task: 
-name="Markdown Introduction 3" 
-alert=""
-idea=""
+#### :calling: COMMAND [PowerShell|PowerShellWithUI|Shell|ShellWithUI|TypeText]
 
-...Here we have links and images
-...
-...[This is a link example](https://www.google.com)
-...
-...Inline-style: 
-...(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-...
-...Image wiht link:
-...[![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)](https://www.google.com)
-...
-...And more!
-`````````````````````
-::::::::::::::::::::::::::::::::::::::::::::
+```PowerShell
+Find-Module ProtectedData | Install-Module
+```
 
+#### :computer: ACTIONS
+
+```
+VM = NoAction|VMName
+FloppyDrive = NoAction|FloppyName|Eject
+DVDDrive = NoAction|DVDName|Eject
+```
+
+### TASK Install a module - solution
+
+Click the **video camera** icon to view the solution, or click **Done** to continue with the next task.
+
+#### :warning: ALERT
+
+#### :bulb: KNOWLEDGE
+
+If you would like the solution entered for you, place your cursor at the PowerShell prompt and click on the **caret** icon.
+
+#### :camera: SCREENSHOT
+
+![New user table](https://github.com/LearnOnDemandSystems/skunkworks-02-lab/blob/master/screenshots/NewUserTable.png)
+```
+ShowAutomatically = No|Once|EveryTime
+```
+
+#### :movie_camera: VIDEO
+
+```
+Uri = http://learnondemandsystems.com/video.mp4
+ShowAutomatically = No|Once|EveryTime
+ShowInDialog = false
+```
+
+#### :calling: COMMAND [PowerShell|PowerShellWithUI|Shell|ShellWithUI|TypeText]
+
+```PowerShell
+Find-Module ProtectedData | Install-Module
+```
+
+#### :computer: ACTIONS
+
+```
+VM = NoAction|VMName
+FloppyDrive = NoAction|FloppyName|Eject
+DVDDrive = NoAction|DVDName|Eject
+```
