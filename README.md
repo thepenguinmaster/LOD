@@ -21,7 +21,7 @@ http://learnondemandsystems.com/
 
 ### TASK Install a module
 
-Using PowerShellGet, find and install the **ProtectedData** module for all users.
+Using PowerShellGet, find and install the **ProtectedData** module for all users
 
 #### :warning: ALERT
 
